@@ -3,6 +3,9 @@
 A very simple map search project using [TypeScript](https://www.typescriptlang.org).
 Currently just a concept.
 
+![image](https://user-images.githubusercontent.com/6104940/61753925-11218b00-ada9-11e9-854f-cb1844a493a9.png)
+
+
 ## Getting Started
 ...
 
