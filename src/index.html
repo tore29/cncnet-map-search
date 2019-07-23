@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Map search test</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css" />
+</head>
+
+<body>
+    <div id="app">
+        <div class="sidebar">
+            <div class="logo"><img src="assets/images/logo.png"></div>
+            <div class="menu-links">
+                <a href="#" class="ra-maps"><i class="icon icon-game icon-ra"></i> RA Maps</a>
+                <a href="#" class="ts-maps"><i class="icon icon-game icon-ts"></i> TS Maps</a>
+                <a href="#" class="yr-maps"><i class="icon icon-game icon-yr"></i> YR Maps</a>
+            </div>
+        </div>
+        <main>
+            <section class="header">
+                <div class="search">
+                    <form>
+                        <input type="text" placeholder="Enter the name of a map" />
+                    </form>
+                </div>
+                <nav>
+                    <div class="links">
+                    </div>
+                </nav>
+            </section>
+
+            <section class="result-container">
+                <div class="syncing">Syncing, please wait</div>
+                <div class="filters">
+                    <p>Results shown are limited to 30 and from the last year</p>
+                </div>
+                <div class="results">
+                </div>
+            </section>
+        </main>
+        <script src="App.ts"></script>
+</body>
+
+</html>

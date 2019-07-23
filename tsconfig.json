@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "strictPropertyInitialization": false,
+        "lib": [
+            "dom",
+            "es5",
+            "es6"
+        ],
+        "strict": true,
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
